@@ -1,0 +1,169 @@
+Species,LFMC (%),Leaf thickness (mm),HF (kW/m2),Ignition time (s)
+Salal,129,0.36,11,18.1938
+Salal,129,0.36,11,20.29519824
+Salal,129,0.36,11,16.09240176
+Salal,129,0.36,13,14.6398
+Salal,129,0.36,13,15.85521522
+Salal,129,0.36,13,13.42438478
+Salal,129,0.36,16,10.638
+Salal,129,0.36,16,11.49828088
+Salal,129,0.36,16,9.777719116
+Salal,129,0.36,21,8.4432
+Salal,129,0.36,21,9.462615205
+Salal,129,0.36,21,7.423784795
+Salal,49,0.36,11,14.2842
+Salal,49,0.36,11,19.1712266
+Salal,49,0.36,11,9.397173403
+Salal,49,0.36,13,7.5706
+Salal,49,0.36,13,8.84057537
+Salal,49,0.36,13,6.30062463
+Salal,49,0.36,16,4.3856
+Salal,49,0.36,16,5.0371841
+Salal,49,0.36,16,3.7340159
+Salal,49,0.36,21,3.5194
+Salal,49,0.36,21,4.172321925
+Salal,49,0.36,21,2.866478075
+Salal,20,0.36,11,7.28375
+Salal,20,0.36,11,9.269092209
+Salal,20,0.36,11,5.298407791
+Salal,20,0.36,13,5.26325
+Salal,20,0.36,13,5.989191242
+Salal,20,0.36,13,4.537308758
+Salal,20,0.36,16,3.823
+Salal,20,0.36,16,4.57520908
+Salal,20,0.36,16,3.07079092
+Salal,20,0.36,21,2.6305
+Salal,20,0.36,21,3.443194438
+Salal,20,0.36,21,1.817805562
+Salal,12,0.36,11,4.6116
+Salal,12,0.36,11,6.1816
+Salal,12,0.36,11,3.0416
+Salal,12,0.36,13,3.21
+Salal,12,0.36,13,4.04
+Salal,12,0.36,13,2.38
+Salal,12,0.36,16,3.03
+Salal,12,0.36,16,3.5
+Salal,12,0.36,16,2.56
+Salal,12,0.36,21,2.23
+Salal,12,0.36,21,2.55
+Salal,12,0.36,21,1.91
+Oregon grape,110,0.35,11,15.39
+Oregon grape,110,0.35,11,17.75
+Oregon grape,110,0.35,11,13.03
+Oregon grape,110,0.35,13,11.2
+Oregon grape,110,0.35,13,12.69
+Oregon grape,110,0.35,13,9.71
+Oregon grape,110,0.35,16,9.2
+Oregon grape,110,0.35,16,10.51
+Oregon grape,110,0.35,16,7.89
+Oregon grape,110,0.35,21,5.64
+Oregon grape,110,0.35,21,6.66
+Oregon grape,110,0.35,21,4.62
+Oregon grape,94,0.35,11,12.22
+Oregon grape,94,0.35,11,14.42
+Oregon grape,94,0.35,11,10.02
+Oregon grape,94,0.35,13,9.06
+Oregon grape,94,0.35,13,9.94
+Oregon grape,94,0.35,13,8.18
+Oregon grape,94,0.35,16,7.3
+Oregon grape,94,0.35,16,8.06
+Oregon grape,94,0.35,16,6.54
+Oregon grape,94,0.35,21,5.3
+Oregon grape,94,0.35,21,5.9
+Oregon grape,94,0.35,21,4.7
+Oregon grape,59,0.35,11,9.6
+Oregon grape,59,0.35,11,11.62
+Oregon grape,59,0.35,11,7.58
+Oregon grape,59,0.35,13,7.8
+Oregon grape,59,0.35,13,9.3
+Oregon grape,59,0.35,13,6.3
+Oregon grape,59,0.35,16,5.8
+Oregon grape,59,0.35,16,6.49
+Oregon grape,59,0.35,16,5.11
+Oregon grape,59,0.35,21,3.2
+Oregon grape,59,0.35,21,3.61
+Oregon grape,59,0.35,21,2.79
+Oregon grape,29,0.35,11,6.69
+Oregon grape,29,0.35,11,8.31
+Oregon grape,29,0.35,11,5.07
+Oregon grape,29,0.35,13,4.77
+Oregon grape,29,0.35,13,5.63
+Oregon grape,29,0.35,13,3.91
+Oregon grape,29,0.35,16,3.68
+Oregon grape,29,0.35,16,4.12
+Oregon grape,29,0.35,16,3.24
+Oregon grape,29,0.35,21,2.94
+Oregon grape,29,0.35,21,3.26
+Oregon grape,29,0.35,21,2.62
+Oregon grape,15,0.35,11,4.32
+Oregon grape,15,0.35,11,4.94
+Oregon grape,15,0.35,11,3.7
+Oregon grape,15,0.35,13,3.38
+Oregon grape,15,0.35,13,3.91
+Oregon grape,15,0.35,13,2.85
+Oregon grape,15,0.35,16,2.71
+Oregon grape,15,0.35,16,2.81
+Oregon grape,15,0.35,16,2.61
+Oregon grape,15,0.35,21,2.31
+Oregon grape,15,0.35,21,2.61
+Oregon grape,15,0.35,21,2.01
+Manzanita,104,0.4,11,25.70225
+Manzanita,104,0.4,11,29.46441306
+Manzanita,104,0.4,11,21.94008694
+Manzanita,104,0.4,13,17.0195
+Manzanita,104,0.4,13,19.08046523
+Manzanita,104,0.4,13,14.95853477
+Manzanita,104,0.4,16,16.27925
+Manzanita,104,0.4,16,18.51507086
+Manzanita,104,0.4,16,14.04342914
+Manzanita,104,0.4,21,10.46075
+Manzanita,104,0.4,21,10.82534235
+Manzanita,104,0.4,21,10.09615765
+Manzanita,74,0.4,11,17.1274
+Manzanita,74,0.4,11,20.52409896
+Manzanita,74,0.4,11,13.73070104
+Manzanita,74,0.4,13,13.975
+Manzanita,74,0.4,13,15.26875423
+Manzanita,74,0.4,13,12.68124577
+Manzanita,74,0.4,16,10.5542
+Manzanita,74,0.4,16,12.03558726
+Manzanita,74,0.4,16,9.072812745
+Manzanita,74,0.4,21,6.5096
+Manzanita,74,0.4,21,7.068296966
+Manzanita,74,0.4,21,5.950903034
+Manzanita,69,0.4,11,17.2954
+Manzanita,69,0.4,11,19.6619522
+Manzanita,69,0.4,11,14.9288478
+Manzanita,69,0.4,13,14.0652
+Manzanita,69,0.4,13,16.03102291
+Manzanita,69,0.4,13,12.09937709
+Manzanita,69,0.4,16,11.6116
+Manzanita,69,0.4,16,13.9439969
+Manzanita,69,0.4,16,9.2792031
+Manzanita,69,0.4,21,6.7944
+Manzanita,69,0.4,21,7.566849869
+Manzanita,69,0.4,21,6.021950131
+Manzanita,55,0.4,11,16.29525
+Manzanita,55,0.4,11,20.60598894
+Manzanita,55,0.4,11,11.98451106
+Manzanita,55,0.4,13,10.34125
+Manzanita,55,0.4,13,12.94520332
+Manzanita,55,0.4,13,7.737296675
+Manzanita,55,0.4,16,8.41
+Manzanita,55,0.4,16,9.866650496
+Manzanita,55,0.4,16,6.953349504
+Manzanita,55,0.4,21,5.9715
+Manzanita,55,0.4,21,6.502605451
+Manzanita,55,0.4,21,5.440394549
+Manzanita,25,0.4,11,9.33
+Manzanita,25,0.4,11,10.93
+Manzanita,25,0.4,11,7.73
+Manzanita,25,0.4,13,8.4
+Manzanita,25,0.4,13,10.8
+Manzanita,25,0.4,13,6
+Manzanita,25,0.4,16,6.4
+Manzanita,25,0.4,16,8.1
+Manzanita,25,0.4,16,4.7
+Manzanita,25,0.4,21,3.5
+Manzanita,25,0.4,21,3.85
+Manzanita,25,0.4,21,3.15

@@ -1,0 +1,55 @@
+Verification on all 56 conditions (25 s training)
+                PINN (inverse)  Closed-form least squares  difference [%]
+A Manzanita             37.512                     38.163          -1.707
+A Oregon grape          22.376                     22.604          -1.007
+A Salal                 25.517                     26.337          -3.116
+B                        3.041                      3.202          -5.030
+q_cr                     7.922                      7.067          12.093
+
+In-sample: PINN R2 = 0.959, closed-form ODE R2 = 0.963, final data loss = 4.74e-03, physics loss = 9.88e-07
+Network ignition time vs analytic solution with the PINN's own parameters: max difference = 0.057 s
+
+Profile of the critical heat flux (closed-form ODE, other parameters refitted):
+ q_cr fixed [kW/m2]  rms log error  A Manzanita  A Oregon grape  A Salal     B
+              1.000          0.142       51.123          30.279   35.281 3.202
+              2.000          0.136       49.201          29.141   33.955 3.202
+              3.000          0.130       47.216          27.965   32.585 3.202
+              4.000          0.123       45.155          26.745   31.163 3.202
+              5.000          0.116       43.004          25.471   29.678 3.202
+              6.000          0.111       40.741          24.130   28.116 3.202
+              7.000          0.108       38.332          22.704   26.454 3.202
+              8.000          0.112       35.723          21.158   24.653 3.202
+              9.000          0.130       32.805          19.430   22.639 3.202
+             10.000          0.183       29.288          17.347   20.212 3.202
+
+=== A. Interpolation (5-fold x10, by condition) ===
+                       model  n_test  RMSE [s]  MAE [s]  MAPE [%]    R2
+         PINN (inverse, ODE)      56     1.153    0.748     9.281 0.949
+   Closed-form ODE (log law)      56     1.105    0.745     9.325 0.954
+Algebraic physics (previous)      56     1.108    0.752     9.411 0.953
+
+=== B. Unseen species (leave-one-species-out) ===
+                       model  n_test  RMSE [s]  MAE [s]  MAPE [%]    R2
+         PINN (inverse, ODE)      56     3.688    2.742    29.904 0.483
+   Closed-form ODE (log law)      56     3.076    2.405    25.672 0.640
+Algebraic physics (previous)      56     3.079    2.408    25.701 0.639
+
+=== C. Unseen high heat flux (train 11-16, test 21) ===
+                       model  n_test  RMSE [s]  MAE [s]  MAPE [%]    R2
+         PINN (inverse, ODE)      14     0.493    0.421     9.476 0.958
+   Closed-form ODE (log law)      14     0.504    0.430     9.789 0.956
+Algebraic physics (previous)      14     0.495    0.425     9.703 0.958
+
+=== D. Unseen low heat flux (train 13-21, test 11) ===
+                       model  n_test  RMSE [s]  MAE [s]  MAPE [%]    R2
+         PINN (inverse, ODE)      14     2.664    2.040    14.702 0.795
+   Closed-form ODE (log law)      14     1.664    1.085     9.041 0.920
+Algebraic physics (previous)      14     1.701    1.109     9.124 0.916
+
+=== E. Unseen high moisture (top LFMC per species held out) ===
+                       model  n_test  RMSE [s]  MAE [s]  MAPE [%]    R2
+         PINN (inverse, ODE)      12     1.251    0.923     6.681 0.942
+   Closed-form ODE (log law)      12     1.259    0.970     6.832 0.941
+Algebraic physics (previous)      12     1.268    0.994     6.980 0.941
+
+Total run time 293 s

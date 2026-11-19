@@ -1,0 +1,11 @@
+protocol,model,90% interval coverage [%]
+"A. Interpolation (5-fold x10, by condition)",Gray-box (physics + GP residual),82.14285714285714
+"A. Interpolation (5-fold x10, by condition)",Black-box GP,91.25
+B. Unseen species (leave-one-species-out),Gray-box (physics + GP residual),57.14285714285714
+B. Unseen species (leave-one-species-out),Black-box GP,92.85714285714286
+"C. Unseen high heat flux (train 11-16, test 21)",Gray-box (physics + GP residual),92.85714285714286
+"C. Unseen high heat flux (train 11-16, test 21)",Black-box GP,100.0
+"D. Unseen low heat flux (train 13-21, test 11)",Gray-box (physics + GP residual),85.71428571428571
+"D. Unseen low heat flux (train 13-21, test 11)",Black-box GP,64.28571428571429
+E. Unseen high moisture (top LFMC per species held out),Gray-box (physics + GP residual),91.66666666666666
+E. Unseen high moisture (top LFMC per species held out),Black-box GP,75.0

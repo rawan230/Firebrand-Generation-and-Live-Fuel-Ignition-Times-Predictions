@@ -1,0 +1,49 @@
+﻿[FGT] 700 fits on 20 workers
+[FGT] done in 37 s
+                    protocol                     model  n_test   RMSE  RMSE_lo  RMSE_hi     R2   R2_lo  R2_hi  dRMSE_vs_ref  dRMSE_lo  dRMSE_hi  P_ref_better
+      A. Normal (5-fold x10)         Law, shared n (8)      63  5.788    4.563    7.053  0.867   0.817  0.905         1.926     0.784     3.115         1.000
+      A. Normal (5-fold x10)       Law, species n (11)      63  3.862    2.879    4.771  0.941   0.909  0.965         0.000     0.000     0.000           NaN
+      A. Normal (5-fold x10)            Log-linear (8)      63  5.788    4.563    7.053  0.867   0.817  0.905         1.926     0.784     3.115         1.000
+      A. Normal (5-fold x10)           Quadratic ridge      63  4.362    3.536    5.187  0.924   0.893  0.948         0.500    -0.192     1.309         0.915
+      A. Normal (5-fold x10)           GP, linear mean      63  4.356    3.344    5.360  0.924   0.890  0.950         0.494    -0.161     1.091         0.936
+      A. Normal (5-fold x10)              GP (default)      63  4.337    3.299    5.303  0.925   0.887  0.954         0.475     0.247     0.695         1.000
+      A. Normal (5-fold x10)              RF (default)      63  4.071    3.092    5.028  0.934   0.900  0.959         0.209    -0.218     0.583         0.843
+      A. Normal (5-fold x10)         XGBoost (default)      63  4.201    3.204    5.189  0.930   0.893  0.957         0.339    -0.378     1.020         0.832
+      A. Normal (5-fold x10)                RF (tuned)      63  4.297    3.309    5.243  0.927   0.890  0.953         0.435     0.075     0.768         0.992
+      A. Normal (5-fold x10)           XGBoost (tuned)      63  4.052    3.123    4.954  0.935   0.905  0.958         0.190    -0.218     0.617         0.819
+      A. Normal (5-fold x10) XGBoost (tuned, monotone)      63  3.948    3.053    4.824  0.938   0.908  0.960         0.086    -0.327     0.521         0.667
+      A. Normal (5-fold x10)               MLP (tuned)      63  4.777    3.690    5.886  0.909   0.869  0.940         0.915     0.273     1.605         0.997
+              B. New species            Law, one n (5)      63  8.551    6.997   10.021  0.709   0.607  0.786         0.000     0.000     0.000           NaN
+              B. New species            Log-linear (5)      63  8.551    6.997   10.021  0.709   0.607  0.786         0.000     0.000     0.000         0.000
+              B. New species           Quadratic ridge      63  8.680    7.114   10.184  0.700   0.591  0.779         0.129    -0.382     0.639         0.694
+              B. New species           GP, linear mean      63  8.551    6.996   10.022  0.709   0.607  0.786         0.000    -0.003     0.003         0.516
+              B. New species              GP (default)      63  8.645    7.042   10.195  0.703   0.600  0.780         0.094    -0.327     0.508         0.666
+              B. New species              RF (default)      63  8.684    7.125   10.118  0.700   0.591  0.780         0.133    -0.254     0.533         0.760
+              B. New species         XGBoost (default)      63  8.689    7.088   10.133  0.700   0.589  0.782         0.138    -0.292     0.555         0.741
+              B. New species                RF (tuned)      63  8.513    6.965    9.978  0.712   0.610  0.786        -0.038    -0.171     0.088         0.286
+              B. New species           XGBoost (tuned)      63  8.602    6.916   10.221  0.706   0.615  0.776         0.051    -0.452     0.487         0.576
+              B. New species XGBoost (tuned, monotone)      63  8.802    7.087   10.408  0.692   0.582  0.776         0.251    -0.216     0.686         0.848
+              B. New species               MLP (tuned)      63  8.586    6.995   10.098  0.707   0.608  0.781         0.035    -0.121     0.173         0.673
+C. New temperature-wind pair         Law, shared n (8)      15  5.539    3.517    7.190  0.855   0.599  0.941         0.176    -1.960     2.177         0.568
+C. New temperature-wind pair       Law, species n (11)      15  5.362    3.017    7.381  0.864   0.651  0.949         0.000     0.000     0.000           NaN
+C. New temperature-wind pair            Log-linear (8)      15  5.539    3.517    7.190  0.855   0.599  0.941         0.176    -1.960     2.177         0.568
+C. New temperature-wind pair           Quadratic ridge      15  4.558    3.476    5.467  0.902   0.751  0.942        -0.805    -2.624     1.166         0.226
+C. New temperature-wind pair           GP, linear mean      15  4.176    2.414    5.838  0.917   0.759  0.971        -1.186    -2.642     0.181         0.045
+C. New temperature-wind pair              GP (default)      15  4.045    2.020    5.703  0.923   0.839  0.972        -1.318    -3.055     0.737         0.093
+C. New temperature-wind pair              RF (default)      15  4.645    2.634    6.540  0.898   0.734  0.950        -0.717    -1.850     0.250         0.082
+C. New temperature-wind pair         XGBoost (default)      15  4.472    2.833    5.893  0.905   0.795  0.946        -0.891    -2.397     0.848         0.153
+C. New temperature-wind pair                RF (tuned)      15  4.759    2.636    6.738  0.893   0.715  0.952        -0.604    -1.522     0.186         0.075
+C. New temperature-wind pair           XGBoost (tuned)      15  4.888    3.188    6.517  0.887   0.713  0.941        -0.475    -1.834     0.923         0.261
+C. New temperature-wind pair XGBoost (tuned, monotone)      15  4.336    2.593    5.785  0.911   0.794  0.959        -1.026    -1.940     0.184         0.044
+C. New temperature-wind pair               MLP (tuned)      15  4.134    1.933    6.390  0.919   0.844  0.978        -1.228    -4.308     1.764         0.210
+D. Species seen at 2 mm only         Law, shared n (8)      31 14.065   11.782   16.378 -1.056  -1.741 -0.687         0.000     0.000     0.000           NaN
+D. Species seen at 2 mm only            Log-linear (8)      31 14.065   11.782   16.378 -1.056  -1.741 -0.687         0.000    -0.000     0.000         0.915
+D. Species seen at 2 mm only           Quadratic ridge      31 29.744   26.237   33.082 -8.195 -12.631 -6.203        15.679    12.768    18.470         1.000
+D. Species seen at 2 mm only           GP, linear mean      31 14.955   12.717   17.149 -1.325  -2.086 -0.915         0.890     0.458     1.408         1.000
+D. Species seen at 2 mm only              GP (default)      31 16.245   14.405   18.010 -1.743  -2.481 -1.483         2.180     0.932     3.584         1.000
+D. Species seen at 2 mm only              RF (default)      31 16.598   14.996   18.076 -1.863  -2.849 -1.403         2.533     0.843     4.343         0.999
+D. Species seen at 2 mm only         XGBoost (default)      31 16.295   14.533   17.931 -1.760  -2.849 -1.242         2.230     0.342     4.304         0.989
+D. Species seen at 2 mm only                RF (tuned)      31 16.669   14.969   18.311 -1.888  -2.596 -1.650         2.604     1.147     4.158         1.000
+D. Species seen at 2 mm only           XGBoost (tuned)      31 16.228   14.434   17.939 -1.737  -2.615 -1.360         2.163     0.952     3.488         1.000
+D. Species seen at 2 mm only XGBoost (tuned, monotone)      31 15.860   13.999   17.631 -1.614  -2.549 -1.189         1.795     0.575     3.237         0.999
+D. Species seen at 2 mm only               MLP (tuned)      31 11.092    9.287   12.707 -0.279  -0.890  0.063        -2.973    -4.855    -1.005         0.001
